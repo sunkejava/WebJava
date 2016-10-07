@@ -1,0 +1,236 @@
+body {
+	background-attachment: fixed;
+	background-position: center center;
+	font-family: "Microsoft YaHei";
+}
+
+a {
+	text-decoration: none;
+}
+
+
+.hot-text {
+	background: rgba(255, 255, 255, 0.75);
+}
+.search-box {
+	background: rgba(255, 255, 255, 0.75);
+	width: 80%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.search-container {
+	padding: 10% 10% 1% 10%;
+	position: relative;
+}
+
+.search-button {
+	float: right;
+}
+
+.btn-search {
+	background: rgba(255, 175, 255, 0.4);
+	width: 100px;
+	height: 45px;
+	border: 0 none;
+	cursor: pointer;
+	font-size: 25px;
+}
+
+.btn-search:hover {
+	background: rgba(255, 50, 255, 0.4);
+	width: 100px;
+	height: 45px;
+	border: 0 none;
+	cursor: pointer;
+}
+
+.search-common-pannel {
+	height: 39px;
+	background-color: rgba(255, 175, 255, 0.4);
+	overflow: hidden;
+	padding: 3px 0 3px 77px;
+}
+
+.search-common-pannel input {
+	height: 39px;
+	line-height: 39px;
+	width: 100%;
+	border: 0 none;
+	outline: 0;
+	background: rgba(255, 255, 255, 0.4);
+}
+
+.search-list {
+	position: absolute;
+	margin: 3px;
+	width: 72px;
+	height: 39px;
+	overflow: hidden;
+	background: rgba(255, 255, 125, 0.4);
+	border-left: 1px solid #f6f6f6;
+	border-right: 1px solid #e5e5e5;
+}
+
+.search-list .select {
+	width: 90px;
+	height: 39px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background: rgba(255, 255, 85, 0.4);
+	border: none;
+	padding-left: 10px;
+	display: block;
+}
+
+ul {
+	display: block;
+	list-style: none;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	-webkit-padding-start: 40px;
+}
+
+ul, li {
+	padding: 1px;
+	text-color: #111;
+	display: list-item;
+	text-align: -webkit-match-parent;
+}
+
+.searchContext {
+	padding-left: 10px;
+}
+.tagsbox{
+	width:50%;
+	height:100%;
+	float:right;
+}
+.tagsbox h2{
+	width:100%;
+	height:100%;
+	line-height: 20px;
+	background:  rgba(255, 255, 255, 0.75);
+	margin:0 auto;
+	text-align: center;
+}
+.textbox{
+	width:50%;
+	height:100%;
+	float:left;
+}
+.textbox h2{
+	width:100%;
+	height:100%;
+	background:  rgba(255, 255, 255, 0.75);
+	line-height: 20px;
+	margin:0 auto;
+	text-align: center;
+}
+#tagscloud {
+	width: 100%;
+	height: 80%;
+	position: relative;
+	font-size: 12px;
+	color: #333;
+	margin: auto;
+	text-align: center;
+}
+
+#tagscloud a {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	color: #333;
+	font-family: Arial;
+	text-decoration: none;
+	margin: 0 10px 15px 0;
+	line-height: 18px;
+	text-align: center;
+	font-size: 12px;
+	padding: 1px 5px;
+	display: inline-block;
+	border-radius: 3px;
+}
+
+#tagscloud a.tagc1 {
+	background: #666;
+	color: #fff;
+}
+
+#tagscloud a.tagc2 {
+	background: #F16E50;
+	color: #fff;
+}
+
+#tagscloud a.tagc3 {
+	background: #006633;
+	color: #fff;
+}
+
+#tagscloud a.tagc4 {
+	background: #FF6699;
+	color: #fff;
+}
+
+#tagscloud a.tagc5 {
+	background: #66FFFF;
+	color: #fff;
+}
+
+#tagscloud a.tagc6 {
+	background: #99FF66;
+	color: #fff;
+}
+
+#tagscloud a:hover {
+	color: #fff;
+	background: #FF6666;
+}
+
+.hot-text {
+	float: left;
+	width: 100%;
+}
+
+.text-li {
+	border-bottom: 1px solid #ccc;
+	position: relative;
+}
+
+.text-li h3 {
+	font-size: 18px;
+	text-align: center;
+}
+
+.text-li h3 a {
+	color: #333;
+	margin-left:20px;
+	font-weight: bold;
+	line-height: 22px;
+}
+
+.text-li h3 a:hover {
+	background-color: rgba(255, 175, 255, 0.55);
+	text-decoration: underline;
+}
+.textshow{
+	width:100%; 
+	display:block; 
+	line-height:1.5em; 
+	overflow:visible; 
+	font-size:22px; 
+	margin-top:20px;
+	text-shadow:#FF66CC 1px 1px 0px, #b2b2b2 1px 2px 0;
+}
+.search-pannel a{
+	width:100%;
+	font-size:18px; 
+	margin-top:10px auto;
+	margin-left:40%;
+	text-shadow:#ff0000 1px 1px 0px, #ff0000 1px 2px 0;
+	text-align:center;
+}
